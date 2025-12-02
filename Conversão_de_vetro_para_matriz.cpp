@@ -1,7 +1,13 @@
-// Online C++ compiler to run C++ program online
+/*
+	Name: Conversão_de_vetor_para_matriz.cpp
+	Author: Giovanni Tonsa
+	Date: 01/12/25 22:24
+	Description: Converte 16 numeros em um vetor para uma matriz quadrada
+*/
+
 # include <stdio.h>
 
-int main() {
+main() {
    
     int vetor[16];
     int matriz[4][4];
@@ -35,5 +41,6 @@ int main() {
     } while (i < 4);
 
     return 0;
+
 
 }
